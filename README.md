@@ -76,6 +76,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 **Click film**
 ![image](https://user-images.githubusercontent.com/72057052/161368784-f326433d-fbce-46c5-83be-a2d3b2aa832b.png)
 
+**Search Film**
+![image](https://user-images.githubusercontent.com/72057052/161368873-eabbcc58-d6ad-4973-937e-c164c3d3f290.png)
+
+
 **Redux**
 ![image](https://user-images.githubusercontent.com/72057052/161368823-d3f59c50-e9b1-4ae5-b699-84ee847be082.png)
 
