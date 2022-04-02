@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+@import "./common/Color/Color.scss";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: $primary-color;
+    color: $font-primary;
+}
+.container{
+    margin: 0 40px;
+}
+.footer{
+    bottom: 0;
+}

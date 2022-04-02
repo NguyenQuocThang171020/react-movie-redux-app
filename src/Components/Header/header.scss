@@ -1,0 +1,68 @@
+@import "../../common/Color/Color.scss";
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $secondary-color;
+}
+.header-container{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+
+    .title{
+        color: wheat;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .logo img{
+        margin-left: 20px;
+        width: 100px;
+        height: 50px;
+    }
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .search-input{
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 5px ;
+        background-color: white;
+        border: 2px solid $primary-color;
+        font-size: 1.2rem;
+        padding: 0.5rem 1.5rem;
+    }
+    .btn-search{
+        background-color: none;
+        width: 27px;
+        height: 27px;
+        cursor: pointer  ;
+        border-radius: 50%;
+        background: none;
+        border: none;
+        margin-right: 10px;
+       
+    }
+    .icons{
+        padding: 7px;
+        font-size: 18px;
+        margin-right: 20px;
+        border-radius: 50%;
+        background-color: $font-secondary;
+        width: 27px;
+        height: 27px;
+        transition: all 0.5s ease;
+        &:hover{
+            background: $font-primary;  
+          }
+     }
+     .search-input:focus{
+        outline: 0;
+        color: black;
+     }
+}
+
